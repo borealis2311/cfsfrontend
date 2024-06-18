@@ -1,6 +1,5 @@
 import Http from "./Http";
 export const register = (data)=>Http.post("/Register", data);
-export const getOTP = (data)=>Http.post("/getOTP", data);
 export const login = (data)=>Http.post("/Login", data);
 export const profile = (data)=>Http.post("/Profile", data);
 export const getCategories = (config)=>Http.get("/categories", config);
