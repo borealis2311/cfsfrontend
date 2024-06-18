@@ -122,7 +122,7 @@ const Home = () => {
     <div className="container py-4 py-xl-5">
       <div className="row mb-5">
         <div className="col-md-8 col-xl-6 text-center mx-auto">
-          <h2>Store Policies</h2>
+          <h2>Store Policies1</h2>
           <p className="w-lg-50" />
         </div>
       </div>
