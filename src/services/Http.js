@@ -6,6 +6,7 @@ import { store } from "../redux/store";
 import { resetCart } from "../redux/cartReducer";
 
 const Http = axios.create({
+    withCredentials: true,
     baseURL: baseAPI
 });
 Http.interceptors.request.use(function (config) {
